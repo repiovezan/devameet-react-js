@@ -1,0 +1,30 @@
+@import './configs.scss';
+
+.container-meet-list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 16px;
+
+  .empty {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+
+    img{
+      width: 80%;
+    }
+
+    p {
+      letter-spacing: 0.01em;
+      line-height: 40px;
+      font-weight: 600;
+      color: $greyColor;
+    }
+
+  }
+}

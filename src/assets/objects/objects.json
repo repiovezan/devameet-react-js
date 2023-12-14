@@ -1,0 +1,318 @@
+{
+  "wall": {
+    "path": "wall",
+    "selectMultiple": false,
+    "canRotate": false,
+    "canWalkOver": false,
+    "defaultXPosition": 0,
+    "defaultYPosition": 0,
+    "defaultZIndex": 0,
+    "flexStart": true,
+    "objects": [
+      {
+        "name": "wall_01",
+        "width": 8,
+        "height": 1
+      },
+      {
+        "name": "wall_02",
+        "width": 8,
+        "height": 1
+      },
+      {
+        "name": "wall_03",
+        "width": 8,
+        "height": 1
+      }
+    ]
+  },
+  "floor": {
+    "path": "floor",
+    "selectMultiple": false,
+    "canRotate": false,
+    "canWalkOver": true,
+    "defaultXPosition": 0,
+    "defaultYPosition": 1,
+    "defaultZIndex": 0,
+    "flexStart": true,
+    "objects": [
+      {
+        "name": "floor_01",
+        "width": 8,
+        "height": 7
+      },
+      {
+        "name": "floor_02",
+        "width": 8,
+        "height": 7
+      },
+      {
+        "name": "floor_03",
+        "width": 8,
+        "height": 7
+      },
+      {
+        "name": "floor_04",
+        "width": 8,
+        "height": 7
+      },
+      {
+        "name": "floor_05",
+        "width": 8,
+        "height": 7
+      },
+      {
+        "name": "floor_06",
+        "width": 8,
+        "height": 7
+      }
+    ]
+  },
+  "rug": {
+    "path": "rug",
+    "selectMultiple": true,
+    "canRotate": false,
+    "canWalkOver": true,
+    "defaultXPosition": 0,
+    "defaultYPosition": 1,
+    "defaultZIndex": 1,
+    "flexStart": false,
+    "objects": [
+      {
+        "name": "rug_01",
+        "width": 1,
+        "height": 2
+      },
+      {
+        "name": "rug_02",
+        "width": 2,
+        "height": 3
+      },
+      {
+        "name": "rug_03",
+        "width": 1,
+        "height": 2
+      }
+    ]
+  },
+  "table": {
+    "path": "table",
+    "selectMultiple": true,
+    "canRotate": false,
+    "canWalkOver": false,
+    "defaultXPosition": 0,
+    "defaultYPosition": 1,
+    "defaultZIndex": 2,
+    "flexStart": false,
+    "objects": [
+      {
+        "name": "table_01",
+        "width": 1,
+        "height": 1
+      },
+      {
+        "name": "table_02",
+        "width": 1,
+        "height": 1
+      },
+      {
+        "name": "table_03",
+        "width": 2,
+        "height": 2
+      },
+      {
+        "name": "table_04",
+        "width": 1,
+        "height": 1
+      },
+      {
+        "name": "table_05",
+        "width": 1,
+        "height": 1
+      },
+      {
+        "name": "table_06",
+        "width": 1,
+        "height": 1
+      }
+    ]
+  },
+  "chair": {
+    "path": "chair",
+    "selectMultiple": true,
+    "canRotate": true,
+    "canWalkOver": true,
+    "defaultXPosition": 0,
+    "defaultYPosition": 1,
+    "defaultZIndex": 2,
+    "flexStart": false,
+    "objects": [
+      {
+        "name": "chair_01_blue",
+        "width": 1,
+        "height": 1
+      },
+      {
+        "name": "chair_01_red",
+        "width": 1,
+        "height": 1
+      },
+      {
+        "name": "chair_01_white",
+        "width": 1,
+        "height": 1
+      },
+      {
+        "name": "chair_01_yellow",
+        "width": 1,
+        "height": 1
+      },
+      {
+        "name": "chair_02",
+        "width": 1,
+        "height": 1
+      },
+      {
+        "name": "chair_03",
+        "width": 1,
+        "height": 1
+      }
+    ]
+  },
+  "couch": {
+    "path": "couch",
+    "selectMultiple": true,
+    "canRotate": true,
+    "canWalkOver": true,
+    "defaultXPosition": 0,
+    "defaultYPosition": 1,
+    "defaultZIndex": 2,
+    "flexStart": false,
+    "objects": [
+      {
+        "name": "couch_01",
+        "width": 2,
+        "height": 1
+      },
+      {
+        "name": "couch_02",
+        "width": 2,
+        "height": 1
+      },
+      {
+        "name": "couch_03",
+        "width": 2,
+        "height": 1
+      }
+    ]
+  },
+  "decor": {
+    "path": "decor",
+    "selectMultiple": true,
+    "canRotate": false,
+    "canWalkOver": false,
+    "defaultXPosition": 0,
+    "defaultYPosition": 1,
+    "defaultZIndex": 3,
+    "flexStart": false,
+    "objects": [
+      {
+        "name": "decor_01",
+        "width": 1,
+        "height": 1
+      },
+      {
+        "name": "decor_02",
+        "width": 1,
+        "height": 1
+      },
+      {
+        "name": "decor_03",
+        "width": 1,
+        "height": 1
+      },
+      {
+        "name": "decor_04",
+        "width": 1,
+        "height": 1
+      },
+      {
+        "name": "decor_05",
+        "width": 1,
+        "height": 1
+      },
+      {
+        "name": "decor_06",
+        "width": 1,
+        "height": 1
+      },
+      {
+        "name": "decor_07",
+        "width": 1,
+        "height": 1
+      },
+      {
+        "name": "decor_08",
+        "width": 1,
+        "height": 1
+      }
+    ]
+  },
+  "nature": {
+    "path": "nature",
+    "selectMultiple": true,
+    "canRotate": false,
+    "canWalkOver": false,
+    "defaultXPosition": 0,
+    "defaultYPosition": 1,
+    "defaultZIndex": 50,
+    "flexStart": false,
+    "objects": [
+      {
+        "name": "nature_01",
+        "width": 1,
+        "height": 1
+      },
+      {
+        "name": "nature_02",
+        "width": 1,
+        "height": 1
+      },
+      {
+        "name": "nature_03",
+        "width": 1,
+        "height": 1
+      },
+      {
+        "name": "nature_04",
+        "width": 1,
+        "height": 1
+      },
+      {
+        "name": "nature_05",
+        "width": 1,
+        "height": 1
+      },
+      {
+        "name": "nature_06",
+        "width": 1,
+        "height": 1
+      },
+      {
+        "name": "nature_07",
+        "width": 1,
+        "height": 1
+      },
+      {
+        "name": "nature_08",
+        "width": 1,
+        "height": 1
+      },
+      {
+        "name": "nature_09",
+        "width": 1,
+        "height": 1
+      }
+    ]
+  }
+}

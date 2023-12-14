@@ -1,0 +1,43 @@
+@import './configs.scss';
+
+.container-meet-list-item {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  border-bottom: 0.5px solid $greyColor4;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 0;
+
+  .meet{   
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    cursor: pointer;
+    
+    .color{
+      height: 32px;
+      width: 6px;
+      border-radius: 12px;
+      margin-right: 8px;
+    }
+    span {
+      font-family: $fontBold;
+      font-size: 12px;
+      line-height: 17px;
+      color: $greyColor1;
+      word-wrap: break-word;
+
+      &.selected {
+        color: $primaryColor3;
+      }
+    }
+  }
+  .actions{
+    img{
+      margin-left: 9px;
+      cursor: pointer;
+    }
+  }
+
+}

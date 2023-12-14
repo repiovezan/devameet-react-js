@@ -1,6 +1,6 @@
-import { Modal } from "react-bootstrap";
-import avatarIcon from "../../assets/images/avatar.svg";
-import { useState } from "react";
+import { useState } from 'react';
+import { Modal } from 'react-bootstrap';
+import avatarIcon from '../../assets/images/avatar.svg';
 
 type AvatarInputProps = {
   image: string,

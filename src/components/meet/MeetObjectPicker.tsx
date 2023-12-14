@@ -35,14 +35,14 @@ export const MeetObjectPicker: React.FC<MeetObjectPickerType> = ({
       name: object.name,
       x: asset.defaultXPosition,
       y: asset.defaultYPosition,
-      width: object.width,
-      height: object.height,
       zIndex: asset.defaultZIndex,
       orientation: asset.canRotate? 'front' : '',
       type: asset.path,
       flexStart: asset.flexStart,
       selectMultiple: asset.selectMultiple,
-      canWalkOver: asset.canWalkOver
+      width: object.width,
+      height: object.height,
+      walkThrough: asset.walkThrough
     }
     setObject(objectFinal);
   }
@@ -51,7 +51,9 @@ export const MeetObjectPicker: React.FC<MeetObjectPickerType> = ({
       <div className="action" onClick={() => setShow(!show)}>
         <img src={image} alt={label} />
         <span>{label}</span>
-        <img src={show ? arrowRightIcon : arrowDownIcon} alt="arrow" />
+        <img src={show 
+          ? arrowRightIcon 
+          : arrowDownIcon} />
       </div>
       {show && (
         <div className="objects" >

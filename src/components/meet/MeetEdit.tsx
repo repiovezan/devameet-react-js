@@ -273,13 +273,11 @@ export const MeetEdit = () => {
         </div>
         <div className="form">
           <span onClick={goBack}>Voltar</span>
-          <button 
-            className={isFormInvalid ? "disabled" : ""}
-            disabled={isFormInvalid}
-            onClick={doUpdate}
-          >
-              Salvar</button>
-        </div>
+          <button
+              onClick={doUpdate}
+              disabled={isFormInvalid}
+              className={isFormInvalid ? 'disabled' : ''}>Salvar</button>
+      </div>
       </div>
       <MeetObjectsRoom
         objects={objects}

@@ -83,7 +83,7 @@ export const RoomHome = () => {
     }
   };
 
-  const cantWalkOver = () => {
+  const cantWalkThrough = () => {
     let coordinates: any[] = [];
 
     objects.map((o: any) => {
@@ -169,7 +169,7 @@ export const RoomHome = () => {
     });
 
     wsServices.onAnswerMade((socket: any) => wsServices.callUser(socket));
-    cantWalkOver();
+    cantWalkThrough();
   };
 
   const copyLink = () => {
